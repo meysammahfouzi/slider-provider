@@ -2,13 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:slider_provider/models/Temperature.dart';
 
-class SliderPage extends StatefulWidget {
-  @override
-  _SliderPageState createState() => _SliderPageState();
-}
-
-class _SliderPageState extends State<SliderPage> {
-  @override
+class SliderPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
